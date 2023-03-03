@@ -1,0 +1,42 @@
+.how-it-work {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.how-it-work > h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.content-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.content-list > li {
+  list-style: none;
+  text-align: center;
+  width: 200px;
+}
+
+@media (max-width: 1023px) {
+    
+  .content-list > li:nth-child(even) {
+    /* rotate: 90deg; */
+    margin: 20px 0;
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+    -moz-transform: rotate(90deg); /* Firefox */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -o-transform: rotate(90deg); /* Opera */
+    transform: rotate(90deg);
+  }
+
+  .content-list {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+}
