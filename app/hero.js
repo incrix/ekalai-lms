@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Bg from "../public/asserts/images/hero-bg.png";
 import Hero from "../public/asserts/images/hero.png";
-import useWindowSize from "./screen-size";
+import useWindowSize from "../util/screen-size";
 import SearchBar from "./search-bar";
 export default function hero() {
     const size = useWindowSize()

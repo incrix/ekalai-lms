@@ -5,6 +5,8 @@ import Image from "next/image";
 import Hero from "./hero";
 import ChooseUs from "./choose-us";
 import HowItWorks from "./how-it-works";
+import Benefits from "./benefits";
+import Testimonial from "./testimonial";
 import "../styles/page.css";
 
 
@@ -53,6 +55,8 @@ export default function Home() {
       <Hero />
       <ChooseUs />
       <HowItWorks />
+      <Benefits />
+      <Testimonial />
     </main>
   );
 }

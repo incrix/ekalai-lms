@@ -5,7 +5,7 @@ import Arrow1 from '../public/asserts/svgs/arrow-1.svg';
 import Arrow2 from '../public/asserts/svgs/arrow-2.svg';
 import '../styles/how-it-works.css';
 import Image from "next/image";
-import ScreenSize from './screen-size';
+import ScreenSize from '../util/screen-size';
 
 export default function HowItWorks() {
   return (
