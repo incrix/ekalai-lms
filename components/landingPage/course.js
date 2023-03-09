@@ -57,6 +57,19 @@ export default function PopularCourse() {
       totalRating: 25492,
       addToCart: false,
     },
+    {
+      courseId: 5,
+      courseName: "PHP Beginner + Advanced",
+      imageUrl: Cover,
+      courseBy: "Incrix Education",
+      shortDescription:
+        "Learn the fundamentals of PHP, one of the most popular languages of modern web development.",
+      price: 1299,
+      liked: true,
+      averageRating: 4.7,
+      totalRating: 125492,
+      addToCart: false,
+    },
   ];
   return (
     <div className="popular-course">
