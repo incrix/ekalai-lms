@@ -5,7 +5,7 @@ import Hero from "../public/asserts/images/hero.png";
 import useWindowSize from "../util/screen-size";
 import SearchBar from "./search-bar";
 export default function hero() {
-    const size = useWindowSize()
+    const size = useWindowSize();
     return(
         <section className="hero">
         <Image src={Bg} alt="bg" className="hero-bg" priority />
@@ -17,7 +17,7 @@ export default function hero() {
           <p>Own your future learning new skills online</p>
           <SearchBar />
         </div>
-        <Image src={Hero} alt="Girl with book"  height={size.height*0.85 - 80} priority />
+        {size.width > 1024 ?<Image src={Hero} alt="Girl with book"  height={size.height*0.85 - 80}/> : null}
       </section>
     );
 }

@@ -3,13 +3,6 @@
   padding: 0 5%;
 }
 
-.how-it-work > h1 {
-  text-align: center;
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 80px;
-}
-
 .content-list {
   display: flex;
   align-items: center;
@@ -34,6 +27,7 @@
     -o-transform: rotate(90deg); /* Opera */
     transform: rotate(90deg);
   }
+
 
   .content-list {
     flex-direction: column;

@@ -2,6 +2,9 @@
     width: 100%;
     padding: 40px 5%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #F8F4FF;
 }
 
@@ -17,6 +20,179 @@
     font-size: 18px;
     color: #6D737A;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
+}
+
+.testimonial-cont{
+    width: 95%;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+@media (1000px < width < 1260px) {
+    .testimonial-cont{
+        width: 80%;
+        max-width: 800px !important;
+    }
+}
+@media (900px < width < 1000px) {
+    .testimonial-cont{
+        width: 90%;
+    }
+}
+
+@media (500px < width < 900px) {
+    .testimonial-cont{
+        width: 90%;
+        max-width: 360px !important;
+    }
+}
+
+@media  (width < 500px) {
+    .slick-slider > button{
+        display: none !important;
+    }
+    .testimonial-cont{
+        width: 100%;
+        max-width: 360px !important;
+    }
+}
+
+
+.test-card{
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.test-title-cont{
+    display: flex;
+}
+
+.test-title-cont > img{
+    margin-right: 20px;
+}
+
+.test-card-title{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.test-head > h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.test-head > p{
+    font-size: 14px;
+    color: #6D737A;
+}
+
+.test-card-cont > p{
+    font-size: 16px;
+    color: #363A3D;
+}
+
+@media  (width < 400px){
+    .testimonial-cont{
+        margin-bottom: 80px;
+    }
+    .test-card{
+        width: 100%;
+        height: auto;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .test-title-cont > img{
+        margin-right: 10px;
+    }
+    .test-head > p{
+        font-size: 12px;
+    }
+    .test-head > h3{
+        font-size:16px;
+    }
+    .testimonial-title > h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .testimonial-title > p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    
+    }
+    .slick-dots{
+        bottom: -60px !important;
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px !important;
+    line-height: 1;
+    opacity: 1 !important;
+    color: #FF4667 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0;
+    transform: translate(-100%, -50%) !important;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0;
+    transform: translate(90%, -50%) !important;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots > li > button::before
+{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: #FF4667 !important;
+    color: transparent !important;
+    opacity: 1 !important;
+}
+
+
+.slick-dots > li.slick-active > button::before{
+    background: #CFD3D6 !important;
+}
+
+.slick-dots{
+    bottom: -80px !important;
 }

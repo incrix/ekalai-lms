@@ -1,0 +1,49 @@
+.play-download{
+    display: flex;
+    justify-content: center;
+    background-color: #F8F4FF;
+    padding:20px 5%;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+.play-image{
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.play-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.play-cont > h2{
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.play-cont > h2 > font{
+    color: #392C7D;
+}
+
+.play-cont > p{
+    font-size: 16px;
+    max-width: 500px;
+}
+
+@media (max-width: 1023px) {
+    .play-download{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .play-cont > h2{
+        font-size: 24px;
+    }
+    .play-cont > p{
+        font-size: 14px;
+    }
+}
