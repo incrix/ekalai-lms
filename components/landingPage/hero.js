@@ -1,9 +1,10 @@
 "use client";
 import Image from "next/image";
-import Bg from "../public/asserts/images/hero-bg.png";
-import Hero from "../public/asserts/images/hero.png";
-import useWindowSize from "../util/screen-size";
+import Bg from "../../public/asserts/images/hero-bg.png";
+import Hero from "../../public/asserts/images/hero.png";
+import useWindowSize from "../../util/screen-size";
 import SearchBar from "./search-bar";
+
 export default function hero() {
     const size = useWindowSize();
     return(
@@ -17,7 +18,7 @@ export default function hero() {
           <p>Own your future learning new skills online</p>
           <SearchBar />
         </div>
-        {size.width > 1024 ?<Image src={Hero} alt="Girl with book"  height={size.height*0.85 - 80}/> : null}
+        {size.width > 1024 ?<Image src={Hero} alt="Girl with book"  height={size.width > 1124 ? size.height*0.80 - 80: size.height*0.70 - 80}/> : null}
       </section>
     );
 }

@@ -1,12 +1,12 @@
 "use client";
-import euclidCircular from "../util/font-family";
+import euclidCircular from "../../util/font-family";
 import Image from "next/image";
 import Slider from "react-slick";
-import useWindowSize from "../util/screen-size";
-import avatar from "../util/avatar";
-import Quote from "../public/asserts/svgs/quote.svg";
+import useWindowSize from "../../util/screen-size";
+import avatar from "../../util/avatar";
+import Quote from "../../public/asserts/svgs/quote.svg";
 
-import "../styles/testimonial.css";
+import "../../styles/testimonial.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

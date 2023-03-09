@@ -1,13 +1,11 @@
 import { Poppins } from "next/font/google";
-import localFont from 'next/font/local'
-import Image from "next/image";
-
-import Hero from "./hero";
-import ChooseUs from "./choose-us";
-import HowItWorks from "./how-it-works";
-import Benefits from "./benefits";
-import Testimonial from "./testimonial";
-import PlayDownload from "./play-download";
+import Hero from "../components/landingPage/hero";
+import ChooseUs from "../components/landingPage/choose-us";
+import PopularCourse from "../components/landingPage/course";
+import HowItWorks from "../components/landingPage/how-it-works";
+import Benefits from "../components/landingPage/benefits";
+import Testimonial from "../components/landingPage/testimonial";
+import PlayDownload from "../components/landingPage/play-download";
 import "../styles/page.css";
 
 
@@ -24,6 +22,7 @@ export default function Home() {
     <main className={poppins.className}>
       <Hero />
       <ChooseUs />
+      <PopularCourse />
       <HowItWorks />
       <Benefits />
       <Testimonial />

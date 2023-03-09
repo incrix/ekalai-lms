@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
-import Desk from "../public/asserts/images/desk.png";
-import Mob from "../public/asserts/images/mob.png";
-import Play from "../public/asserts/images/play.png";
-import useWindowSize from "../util/screen-size";
+import Desk from "../../public/asserts/images/desk.png";
+import Mob from "../../public/asserts/images/mob.png";
+import Play from "../../public/asserts/images/play.png";
+import useWindowSize from "../../util/screen-size";
 
-import "../styles/play-download.css";
+import "../../styles/play-download.css";
 
 export default function playDownload() {
 

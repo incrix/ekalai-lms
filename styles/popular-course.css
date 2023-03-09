@@ -1,0 +1,19 @@
+.popular-course{
+    width: 100%;
+    margin-bottom: 130px;
+}
+.popular-course-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 5%;
+    padding-top: 40px;
+    gap: 40px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    background-color: white;
+}
+
+.popular-course-list::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

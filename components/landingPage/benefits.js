@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Elearning from "../public/asserts/svgs/elearning.svg";
-import CurvelineIcone from "../public/asserts/svgs/curveline-icon.svg";
+import Elearning from "../../public/asserts/svgs/elearning.svg";
+import CurvelineIcone from "../../public/asserts/svgs/curveline-icon.svg";
 
-import "../styles/benefits.css";
+import "../../styles/benefits.css";
 
 export default function Benefits() {
   return (
