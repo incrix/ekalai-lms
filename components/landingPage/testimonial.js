@@ -6,7 +6,7 @@ import useWindowSize from "../../util/screen-size";
 import avatar from "../../util/avatar";
 import Quote from "../../public/asserts/svgs/quote.svg";
 
-import "../../styles/testimonial.css";
+import "../../styles/landingPage/testimonial.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -75,13 +75,13 @@ const card = (image, fullName, position, cont) => {
     <div className="test-card">
       <div className="test-card-title">
         <div className="test-title-cont">
-          <Image src={image} alt="avatar" width={50} priority />
+          <Image src={image} alt="avatar" width={50} priority={true} />
           <div className="test-head">
             <h4 className={euclidCircular.className}>{fullName}</h4>
             <p className={euclidCircular.className}>{position}</p>
           </div>
         </div>
-        <Image src={Quote} alt="avatar" width={30} priority />
+        <Image src={Quote} alt="avatar" width={30} priority={true} />
       </div>
       <div className="test-card-cont">
         <p className={euclidCircular.className}>{cont}</p>

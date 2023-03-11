@@ -1,7 +1,7 @@
 import { Card } from "../../util/cards";
 import Cover from "../../public/asserts/images/cover.svg";
 
-import '../../styles/popular-course.css'
+import '../../styles/landingPage/popular-course.css'
 
 export default function PopularCourse() {
   const popularCourseList = [

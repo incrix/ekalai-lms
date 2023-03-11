@@ -4,7 +4,7 @@ import HatIcon from "../../public/asserts/svgs/hat-icon.svg";
 import IdcardIcon from "../../public/asserts/svgs/idcard-icon.svg";
 import PassIcon from "../../public/asserts/svgs/pass-icon.svg";
 import CurvelineIcone from "../../public/asserts/svgs/curveline-icon.svg";
-import "../../styles/choose-us.css";
+import "../../styles/landingPage/choose-us.css";
 
 export default function chooseUs() {
   const cards = [

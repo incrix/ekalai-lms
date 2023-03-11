@@ -4,7 +4,7 @@ import Learn from "../../public/asserts/svgs/learn.svg";
 import Arrow1 from "../../public/asserts/svgs/arrow-1.svg";
 import Arrow2 from "../../public/asserts/svgs/arrow-2.svg";
 import CurvelineIcone from "../../public/asserts/svgs/curveline-icon.svg";
-import "../../styles/how-it-works.css";
+import "../../styles/landingPage/how-it-works.css";
 import Image from "next/image";
 import ScreenSize from "../../util/screen-size";
 

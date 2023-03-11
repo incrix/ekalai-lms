@@ -6,7 +6,7 @@ import HowItWorks from "../components/landingPage/how-it-works";
 import Benefits from "../components/landingPage/benefits";
 import Testimonial from "../components/landingPage/testimonial";
 import PlayDownload from "../components/landingPage/play-download";
-import "../styles/page.css";
+import "../styles/landingPage/page.css";
 
 
 const poppins = Poppins({

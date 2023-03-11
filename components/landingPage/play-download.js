@@ -5,7 +5,7 @@ import Mob from "../../public/asserts/images/mob.png";
 import Play from "../../public/asserts/images/play.png";
 import useWindowSize from "../../util/screen-size";
 
-import "../../styles/play-download.css";
+import "../../styles/landingPage/play-download.css";
 
 export default function playDownload() {
 

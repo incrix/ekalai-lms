@@ -10,8 +10,7 @@ import CartIcon from "../public/asserts/svgs/cart-icon.svg";
 import euclidCircular from "./font-family";
 import Cover from "../public/asserts/images/cover.svg";
 
-import "../styles/cards.css";
-import { Contrast } from "@mui/icons-material";
+import "../styles/landingPage/cards.css";
 
 const Card = ({course}) => {
   const {

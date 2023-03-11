@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="footer">
         <div className={`foot-head ${euclidCircular.className}`}>
-            <Image src={Logo2}  alt="Logo"/>
+            <Image src={Logo2}  alt="Logo" loading="lazy"/>
             <span>Ekalai</span>
         </div>
         <div className={`foot-body ${euclidCircular.className}`}>
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
             <div className="foot-body-2">
                 <Link href="#">About Us</Link>
-                <Link href="#">Courses</Link>
+                <Link href="#">Courses</Link>   
                 <Link href="#">Support</Link>
             </div>
             <div className="foot-body-3">
@@ -32,10 +32,10 @@ export default function Footer() {
                 <Link href="#">Terms of use</Link>
             </div>
             <div className="foot-body-4">
-                <Link href="#"><Image src={TwitterIcon} alt="" priority/></Link>
-                <Link href="#"><Image src={FacebookIcon} alt="" priority/></Link>
-                <Link href="#"><Image src={InstagramIcon} alt="" priority/></Link>
-                <Link href="#"><Image src={LinkedinIcon} alt="" priority/></Link>
+                <Link href="#" as="image"><Image src={TwitterIcon} alt="" loading="lazy"/></Link>
+                <Link href="#" as="image"><Image src={FacebookIcon} alt="" loading="lazy"/></Link>
+                <Link href="#" as="image"><Image src={InstagramIcon} alt="" loading="lazy"/></Link>
+                <Link href="#" as="image"><Image src={LinkedinIcon} alt="" loading="lazy"/></Link>
             </div>
         </div>
         <div className={`foot-foot ${euclidCircular.className}`}>
