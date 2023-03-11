@@ -6,7 +6,7 @@ import useWindowSize from "../../util/screen-size";
 export default function Hero() {
   const size = useWindowSize();
   return (
-    <section className="hero">
+    <section className="about-hero">
       <div className="column-1">
         <h1>This is Our Story </h1>
         <p>
