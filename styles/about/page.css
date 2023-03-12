@@ -25,6 +25,7 @@
     font-weight: 300;
     margin-bottom: 80px;
     color: #515151;
+    text-align: justify;
 }
 
 .vision-mission{
@@ -49,4 +50,220 @@
     font-weight: 300;
     margin-bottom: 30px;
     color: #515151;
+    text-align: justify;
+}
+
+@media (max-width: 1023px) {
+    .column-1{
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .vision-mission{
+        flex-direction: column;
+    }
+    .vision-mission > div{
+        width: 100%;
+    }
+}
+
+/* Make Your Learning */
+
+.make-learning{
+    width: 100%;
+    padding: 0 5%;
+    margin: 80px 0;
+}
+
+.make-learning > h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.make-learning-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.make-learning-img > img{
+    border-radius: 12px;
+}
+
+.make-learning-text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.make-learning-card{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 10px 10px 0;
+}
+
+.make-learning-card > h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.make-learning-card > p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #515151;
+    text-align: justify;
+}
+
+@media (max-width: 1023px) {
+    .make-learning-content{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .make-learning-img{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .make-learning-text{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Join Our Platform */
+
+.join-platform{
+    width: 100%;
+    padding: 0 5%;
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.join-platform-cont{
+    width: 60%;
+    max-width: 700px;
+}
+
+.join-platform-cont > h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.join-platform-cont > h2 > font{
+    color: #6176F7;
+}
+
+.join-platform-cont > div {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #52565C;
+}
+
+.join-platform-cont > p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.join-platform-cont > button{
+    padding: 20px 35px;
+    border-radius: 40px;
+    background: #F8F4FF;
+    color: #392C7D;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+    .join-platform{
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .join-platform-cont{
+        width: 100%;
+        max-width: auto;
+    }
+}
+
+
+/* Get in touch with us */
+
+
+.get-in-touch{
+    width: 100%;
+    padding: 80px 5%;
+    margin: 30px 0;
+    background: #6176F7;
+    color: white;
+
+}
+
+.get-in-touch > h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.get-in-touch > p{
+    font-size: 18px;
+    font-weight: 300;
+    /* width: 60%; */
+    max-width: 550px;
+    text-align: justify;
+}
+
+.get-in-touch-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-in-touch-cont-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.get{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.get-cont > h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.get-cont > p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 948px) {
+    .get-in-touch-cont{
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 80px;
+    }
+    .get-cont > img{
+
+    }
 }

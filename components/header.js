@@ -20,11 +20,11 @@ export default function Header() {
         <h1>Ekalai</h1>
       </div>
       <nav className={`navbar ${menu ? "opened" : ""}`}>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="#">Courses</Link>
-        <Link href="#">Sign up</Link>
-        <Link className="login-btn" href="#">
+        <Link href="/" onClick={()=> setMenu(false)}>Home</Link>
+        <Link href="/about" onClick={()=> setMenu(false)}>About</Link>
+        <Link href="#" onClick={()=> setMenu(false)}>Courses</Link>
+        <Link href="#" onClick={()=> setMenu(false)}>Sign up</Link>
+        <Link className="login-btn" href="#" onClick={()=> setMenu(false)}>
           Login
         </Link>
       </nav>
